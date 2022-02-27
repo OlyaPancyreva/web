@@ -4,7 +4,4 @@
 
 ### Лабораторные
 
-```
 [1 лабораторная](https://olyapancyreva.github.io/web/first/)
-
-```
