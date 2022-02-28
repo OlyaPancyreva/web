@@ -8,7 +8,8 @@
       </head>
       <body>
         <h4 id="author" title="GossJS">Ольга Панцырева</h4>
-
+        <link href="https://olyapancyreva.github.io/web">Назад</link>
+        
         <svg>
           <xsl:attribute name="width">
             <xsl:value-of select="@ширина"/>
