@@ -3,12 +3,10 @@
   <xsl:template match="строка">
     <html>
       <head>
-        <title></title>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async="true" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       </head>
       <body>
-        <h4 id="author" title="GossJS">Алексей Новопашин</h4>
+        <h4 id="author" title="GossJS">Ольга Панцырева</h4>
 
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>
@@ -17,7 +15,6 @@
           <mo>
             <xsl:value-of select="оператор[1]"/>
           </mo>
-
           <msqrt>
             <mrow>
               <mfrac>
@@ -33,7 +30,6 @@
                   <mo>
                     <xsl:value-of select="корень/строка/строка[1]/низверх/строка[1]/оператор"/>
                   </mo>
-
                   <mrow>
                     <mi>
                       <xsl:value-of select="корень/строка/строка[1]/низверх/строка[2]/операнд"/>
@@ -45,16 +41,12 @@
                       <xsl:value-of select="корень/строка/строка[1]/низверх/строка[2]/число"/>
                     </mn>
                   </mrow>
-
                   <mrow>
                     <mi>
                       <xsl:value-of select="корень/строка/строка[1]/низверх/строка[3]/операнд"/>
                     </mi>
                   </mrow>
-
-
                 </munderover>
-
                 <mrow>
                   <msup>
                     <mrow>
@@ -92,13 +84,8 @@
                   </msup>
                 </mrow>
               </mrow>
-
-
-
-
             </mrow>
           </msqrt>
-
           <mo>
             <xsl:value-of select="оператор[2]"/>
           </mo>
