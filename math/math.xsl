@@ -38,16 +38,16 @@
                                     <mi>i</mi>
                                 </mrow>
                             </msub>
-                                <mo>&#x2212;</mo>
-                                <mi>&#x3BC;</mi>
-                                <mo>)</mo>
-                            </mrow>
-                            <mrow>
-                                <mn>2</mn>
-                            </mrow>
-                        </msup>
-                    </mrow>
+                            <mo>&#x2212;</mo>
+                            <mi>&#x3BC;</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mrow>
+                            <mn>2</mn>
+                        </mrow>
+                    </msup>
                 </mrow>
+            </mrow>
             </mrow>
         </msqrt>
         <mo>.</mo>
