@@ -8,7 +8,7 @@
       <body>
         <h4 id="author" title="GossJS">Ольга Панцырева</h4>
         <link href="https://olyapancyreva.github.io/web">Назад</link>
-
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>
             <xsl:value-of select="операнд"/>
           </mi>
